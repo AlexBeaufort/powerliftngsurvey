@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AJ's Survey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="center">
+<h1 id="title">Powerlifting Club Survey</h1>
+<p id="description"><em>Suvey about what you would like to see in the powerlifting club</em></p>
+<form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label">Name:<input type="text" id="name" placeholder="Enter your name" class="block textbox"required></label>
+    <label for="email" id="email-label">Email:<input type="email" id="email" placeholder="Enter your email" class="block textbox"required></label>
+    <label for="number" id="number-label">Age:<input type="number" id="number" min="17" max="26"class="block textbox" placeholder></label>
+    <label for="sex"> Sex:
+        <select id="sex" class="block">
+            <option value=""></option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+        </select>
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <p>What is your experience level</p>
+    
+   <label  for="Beginner"><input type="radio" name="experience" id="Beginner"> Beginner</label>
+   <label  for="Novice"><input type="radio" name="experience" id="Novice"> Novice</label>
+   <label  for="Intermediate"><input type="radio" name="experience" id="Intermediate"> Intermediate</label>
+   <label  for="Advanced"><input type="radio" name="experience" id="Advanced"> Advanced</label>
+    
+   <p>What divsion would you like to compete in</p>
+  
+   <label class="inline" for="teen"><input type="checkbox" id="teen" value="teen"> Teen 3(18-19)</label>
+   <label class="inline" for="Junior"><input type="checkbox" id="Junior" value="junior"> Junior(20-23)</label>
+   <label class="inline" for="open"><input type="checkbox" id="open" value="open"> Open(15+)</label>
+   <label class="inline" for="Collegiate"><input type="checkbox" id="Collegiate" value="Collegiate"> Collegiate</label>
+  
+  </fieldset>
+  <fieldset>
+    <p>Would you like to Compete This year</p>
+   
+    <label for="no"><input type="radio" id="no">No</label>
+    <label  for="yes"><input type="radio" id="yes">Yes</label>
+    <label for="meet" class="block">If so input name of meet you would like to compete at <input type="text" id="meet" class="textbox"></label>
+    <label for="cmeet" class="inline"><input type="checkbox" id="cmeet"> If your are iterested in competing at states check here</label>
+    
+  </fieldset>
+  <fieldset>
+    <label>If you have any quetions or suggetions leave them below
+        <textarea rows="6" cols="50">
+
+        </textarea>
+    </label>
+    
+  </fieldset>
+
+  <input type="submit" value="submit">
+</form>
+</div>
+
+</body>
+</html>

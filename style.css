@@ -1,0 +1,66 @@
+.block {
+    display: block;
+}
+.inline{
+    display:block;
+}
+fieldset{
+    
+    border: none;
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+}
+fieldset:last-of-type{
+    padding:10px 0;
+}
+.center{
+    text-align: center;
+    
+}
+form{
+    width: 70%;
+    margin:auto;
+    min-width: 500px;
+    max-width: 700px;
+    background-color: #a32a2af0;
+    color:#EFEDEA;
+    border-radius: 8px;
+    padding: 10px;
+}
+.textbox{
+    width: 70%;
+    border-radius: .5em;
+    height: 25px;
+    background-color: white;
+    border: none;
+    margin: 5px auto;
+    
+}
+select{
+    margin: 5px auto;
+    border-radius: .5em;
+    height: 25px;
+    background-color: white;
+    border: none;
+}
+body{
+    background-image: url("https://ticketleap-media-master.s3.amazonaws.com/18ff5a5c-b3ba-44b5-9bff-60375c1c431b/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Tahoma;
+    color:#EFEDEA;
+}
+textarea{
+    margin: 10px auto;
+}
+input[type="submit"]{
+    width: 70%;
+    border-radius: .3em;
+    height: 35px;
+    border: solid 1px;
+    margin: 15px auto;
+    margin-bottom: 5px;
+    background-color:#641d1d;
+    color: #EFEDEA;
+    
+}
